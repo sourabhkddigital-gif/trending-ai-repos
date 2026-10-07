@@ -103,7 +103,7 @@ def parse_trending(page: str) -> list[dict]:
         if not m:
             continue
         full = m.group(1).strip()
-        desc = re.search(r"<p[^>]*>(.*?)</p>", block, re.S)
+        desc = re.search(r"<p(?:\s[^>]*)?>(.*?)</p>", block, re.S)
         lang = re.search(r'itemprop="programmingLanguage"[^>]*>([^<]+)<', block)
         stars = re.search(rf'href="/{re.escape(full)}/stargazers"[^>]*>(.*?)</a>', block, re.S)
         forks = re.search(rf'href="/{re.escape(full)}/(?:forks|network/members)"[^>]*>(.*?)</a>', block, re.S)

@@ -1,19 +1,24 @@
 """Fetch today's GitHub trending repos, save them to a CSV, and print them.
 
 Usage (from this folder):  python run_today.py
-Output: trending_today_YYYY-MM-DD.csv in this folder (opens in Excel).
+Output: daily/trending_today_YYYY-MM-DD.xlsx (clickable links) and .csv.
 Does not change data/trending.csv or the README.
 """
 import csv
 import re
 import sys
 import time
-from datetime import date
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import tracker as t
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+
+def today_ist() -> str:
+    """Today's date in India time, so the GitHub server (UTC) and a local PC name files the same way."""
+    return datetime.now(timezone(timedelta(hours=5, minutes=30))).date().isoformat()
 
 
 def clean(repo: str, desc: str) -> str:
@@ -48,7 +53,9 @@ def main() -> int:
         })
         time.sleep(0.3)
 
-    out = Path(__file__).resolve().parent / f"trending_today_{date.today().isoformat()}.csv"
+    folder = Path(__file__).resolve().parent / "daily"
+    folder.mkdir(exist_ok=True)
+    out = folder / f"trending_today_{today_ist()}.csv"
     try:
         with out.open("w", encoding="utf-8-sig", newline="") as f:  # utf-8-sig so Excel shows symbols correctly
             w = csv.DictWriter(f, fieldnames=list(rows[0]))

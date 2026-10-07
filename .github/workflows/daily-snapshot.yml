@@ -2,7 +2,7 @@ name: Daily Trending Snapshot
 
 on:
   schedule:
-    # 02:07 UTC = 09:07 WIB. Weekly reports are written automatically on the first run of each week.
+    # 02:07 UTC = 07:37 IST. Weekly reports are written automatically on the first run of each week.
     - cron: "7 2 * * *"
   workflow_dispatch:
 
@@ -33,14 +33,19 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tracker.py
 
+      - name: Save today's list as Excel and CSV
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python run_today.py
+
       - name: Commit and push if changed
         run: |
-          git config user.name "arielshakaramiro"
-          git config user.email "shakaramiroariel@gmail.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898729+github-actions[bot]@users.noreply.github.com"
           git add -A
           if git diff --staged --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "trending: snapshot $(TZ=Asia/Jakarta date +%F)"
+          git commit -m "trending: snapshot $(TZ=Asia/Kolkata date +%F)"
           git push

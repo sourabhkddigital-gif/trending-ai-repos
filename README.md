@@ -109,7 +109,7 @@ github.com/trending ──► GitHub API (topics, license, created) ──► AI
 
 | Column | Meaning |
 |--------|---------|
-| `date`, `rank` | Day (WIB) and position on the trending list |
+| `date`, `rank` | Day (IST) and position on the trending list |
 | `repo` | `owner/name` |
 | `description`, `language`, `topics`, `license`, `created_at` | Repository metadata |
 | `stars`, `forks`, `stars_today` | Totals and stars gained that day |
