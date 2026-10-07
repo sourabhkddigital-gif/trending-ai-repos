@@ -36,8 +36,7 @@ def main() -> int:
         rows.append({
             "rank": i,
             "repo": r["repo"],
-            # A HYPERLINK formula so the link is clickable when the CSV is opened in Excel.
-            "url": f'=HYPERLINK("https://github.com/{r["repo"]}","https://github.com/{r["repo"]}")',
+            "url": f"https://github.com/{r['repo']}",
             "description": r["description"],
             "language": r["language"],
             "stars_today": r["stars_today"],
@@ -50,10 +49,15 @@ def main() -> int:
         time.sleep(0.3)
 
     out = Path(__file__).resolve().parent / f"trending_today_{date.today().isoformat()}.csv"
-    with out.open("w", encoding="utf-8-sig", newline="") as f:  # utf-8-sig so Excel shows symbols correctly
-        w = csv.DictWriter(f, fieldnames=list(rows[0]))
-        w.writeheader()
-        w.writerows(rows)
+    try:
+        with out.open("w", encoding="utf-8-sig", newline="") as f:  # utf-8-sig so Excel shows symbols correctly
+            w = csv.DictWriter(f, fieldnames=list(rows[0]))
+            w.writeheader()
+            w.writerows(rows)
+    except PermissionError:
+        print(f"Could not save {out.name}: close it in Excel and run again.")
+        return 1
+    xlsx = save_excel(rows, out.with_suffix(".xlsx"))
 
     print()
     print(f"{'#':>2}  {'Repository':<38} {'Language':<11} {'Stars today':>11} {'Total':>9}  AI")
@@ -64,7 +68,49 @@ def main() -> int:
     print("-" * 80)
     print(f"{sum(r['is_ai'] == 'yes' for r in rows)} of {len(rows)} are AI-related.")
     print(f"Saved: {out}")
+    if xlsx:
+        print(f"Saved: {xlsx}  (open this one in Excel for clickable links)")
     return 0
+
+
+def save_excel(rows: list[dict], path: Path) -> Path | None:
+    """Write a real Excel file with clickable repo links. Skipped if openpyxl is missing."""
+    try:
+        from openpyxl import Workbook
+        from openpyxl.styles import Font, PatternFill
+    except ImportError:
+        print("  (Install openpyxl for an Excel file with clickable links: pip install openpyxl)")
+        return None
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Trending today"
+    headers = ["Rank", "Repository", "Link", "Description", "Language", "Stars today",
+               "Total stars", "Forks", "Topics", "License", "AI"]
+    ws.append(headers)
+    for c in ws[1]:
+        c.font = Font(bold=True, color="FFFFFF")
+        c.fill = PatternFill("solid", fgColor="1D7A4C")
+    link_font = Font(color="0563C1", underline="single")
+    for r in rows:
+        ws.append([r["rank"], r["repo"], r["url"], r["description"], r["language"], r["stars_today"],
+                   r["total_stars"], r["forks"], r["topics"], r["license"], r["is_ai"]])
+        row = ws.max_row
+        for col in (2, 3):  # repo name and link both open the repo
+            cell = ws.cell(row=row, column=col)
+            cell.hyperlink = r["url"]
+            cell.font = link_font
+        for col in (6, 7, 8):
+            ws.cell(row=row, column=col).number_format = "#,##0"
+    for col, width in zip("ABCDEFGHIJK", (6, 34, 48, 70, 13, 12, 12, 10, 40, 14, 6)):
+        ws.column_dimensions[col].width = width
+    ws.freeze_panes = "A2"
+    ws.auto_filter.ref = ws.dimensions
+    try:
+        wb.save(path)
+    except PermissionError:
+        print(f"  Could not save {path.name}: close it in Excel and run again.")
+        return None
+    return path
 
 
 if __name__ == "__main__":
