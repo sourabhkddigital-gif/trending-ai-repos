@@ -5,6 +5,7 @@ Output: daily/trending_today_YYYY-MM-DD.xlsx (clickable links) and .csv.
 Does not change data/trending.csv or the README.
 """
 import csv
+import os
 import re
 import sys
 import time
@@ -77,6 +78,10 @@ def main() -> int:
     print(f"Saved: {out}")
     if xlsx:
         print(f"Saved: {xlsx}  (open this one in Excel for clickable links)")
+    # On a Windows PC, open today's file straight away. Skipped on GitHub's servers (CI is set there).
+    if sys.platform == "win32" and not os.getenv("CI"):
+        print("Opening it in Excel ...")
+        os.startfile(xlsx or out)
     return 0
 
 
