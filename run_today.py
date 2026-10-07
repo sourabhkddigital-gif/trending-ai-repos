@@ -36,7 +36,8 @@ def main() -> int:
         rows.append({
             "rank": i,
             "repo": r["repo"],
-            "url": f"https://github.com/{r['repo']}",
+            # A HYPERLINK formula so the link is clickable when the CSV is opened in Excel.
+            "url": f'=HYPERLINK("https://github.com/{r["repo"]}","https://github.com/{r["repo"]}")',
             "description": r["description"],
             "language": r["language"],
             "stars_today": r["stars_today"],
