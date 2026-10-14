@@ -7,28 +7,27 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 ## Live view
 
 <!-- TRACKER_START -->
-### 🔥 AI repos trending today · 2026-10-13
+### 🔥 AI repos trending today · 2026-10-14
 
-8 of 9 trending repositories are AI-related.
+7 of 9 trending repositories are AI-related.
 
 | # | Repo | Language | ⭐ today | ⭐ total | Topics |
 |--:|---|---|--:|--:|---|
-| 1 | [morluto/rea](https://github.com/morluto/rea)<br><sub>Reverse engineer anything with agents, from app behavior down to native binaries.</sub> | TypeScript | 45,327 | 162,039 | `agent-skills` `ai-agents` `binary-analysis` `claude-code` |
-| 3 | [mksglu/context-mode](https://github.com/mksglu/context-mode)<br><sub>Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), p…</sub> | TypeScript | 246 | 27,356 | `antigravity` `claude` `claude-code` `claude-code-hooks` |
-| 4 | [storytold/artcraft](https://github.com/storytold/artcraft)<br><sub>ArtCraft is an intentional crafting engine for artists, designers, and filmmakers</sub> | Rust | 4,095 | 22,314 | `3d-graphics` `ai` `aivideo` `filmmaking` |
-| 5 | [open-webui/open-webui](https://github.com/open-webui/open-webui)<br><sub>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</sub> | Python | 157 | 155,097 | `ai` `llm` `llm-ui` `llm-webui` |
-| 6 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)<br><sub>Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, an…</sub> | HTML | 2,081 | 52,742 | `agent-skills` `claude-code` `codex` `data-visualization` |
-| 7 | [lyogavin/airllm](https://github.com/lyogavin/airllm)<br><sub>AirLLM 2.8T LLM inference with single 4GB GPU</sub> | Jupyter Notebook | 879 | 37,596 | `chinese-llm` `chinese-nlp` `finetune` `generative-ai` |
-| 8 | [microsoft/BitNet](https://github.com/microsoft/BitNet)<br><sub>Official inference framework for 1-bit LLMs</sub> | C++ | 97 | 40,936 | – |
-| 9 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code)<br><sub>Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ f…</sub> | Python | 626 | 59,217 | – |
+| 1 | [morluto/rea](https://github.com/morluto/rea)<br><sub>Reverse engineer anything with agents, from app behavior down to native binaries.</sub> | TypeScript | 54,679 | 210,861 | `agent-skills` `ai-agents` `binary-analysis` `claude-code` |
+| 3 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)<br><sub>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice …</sub> | Python | 1,748 | 63,570 | `ai` `audiobook` `cuda` `dubbing` |
+| 4 | [mksglu/context-mode](https://github.com/mksglu/context-mode)<br><sub>Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), p…</sub> | TypeScript | 969 | 28,317 | `antigravity` `claude` `claude-code` `claude-code-hooks` |
+| 5 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)<br><sub>Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, an…</sub> | HTML | 1,815 | 54,274 | `agent-skills` `claude-code` `codex` `data-visualization` |
+| 6 | [vercel-labs/skills](https://github.com/vercel-labs/skills)<br><sub>The open agent skills tool - npx skills</sub> | TypeScript | 190 | 34,571 | – |
+| 7 | [lyogavin/airllm](https://github.com/lyogavin/airllm)<br><sub>AirLLM 2.8T LLM inference with single 4GB GPU</sub> | Jupyter Notebook | 1,001 | 38,383 | `chinese-llm` `chinese-nlp` `finetune` `generative-ai` |
+| 8 | [storytold/artcraft](https://github.com/storytold/artcraft)<br><sub>ArtCraft is an intentional crafting engine for artists, designers, and filmmakers</sub> | Rust | 4,081 | 25,882 | `3d-graphics` `ai` `aivideo` `filmmaking` |
 
 ### 📊 This week so far · 2026-W42
 
 #### Summary
 
-- **9** distinct AI repos trended over 2 day(s) (last week: 33)
-- AI share of all trending slots: **76%** (+3 pts vs last week)
-- Dominant language: **Python** (33% of AI repos)
+- **11** distinct AI repos trended over 3 day(s) (last week: 33)
+- AI share of all trending slots: **77%** (+3 pts vs last week)
+- Dominant language: **Python** (36% of AI repos)
 
 #### Languages
 
@@ -36,12 +35,12 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 
 | Language | Repos | Share | Last week |
 |---|--:|--:|--:|
-| Python | 3 | 33% | 10 |
-| TypeScript | 2 | 22% | 5 |
-| Rust | 1 | 11% | 2 |
-| HTML | 1 | 11% | 1 |
-| Jupyter Notebook | 1 | 11% | 0 |
-| C++ | 1 | 11% | 1 |
+| Python | 4 | 36% | 10 |
+| TypeScript | 3 | 27% | 5 |
+| Rust | 1 | 9% | 2 |
+| HTML | 1 | 9% | 1 |
+| Jupyter Notebook | 1 | 9% | 0 |
+| C++ | 1 | 9% | 1 |
 
 #### Topics
 
@@ -49,36 +48,37 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 
 | Topic | Repos this week |
 |---|--:|
-| `mcp` | 3 |
 | `codex` | 3 |
 | `claude-code` | 3 |
+| `mcp` | 3 |
 | `agent-skills` | 2 |
-| `dsh-plugin` | 1 |
-| `binary-analysis` | 1 |
 | `developer-tools` | 1 |
-| `dsh` | 1 |
-| `ai-agents` | 1 |
-| `static-analysis` | 1 |
+| `dsh-plugin` | 1 |
 | `hopper` | 1 |
-| `cordis` | 1 |
+| `reverse-engineering` | 1 |
+| `dsh` | 1 |
+| `static-analysis` | 1 |
+| `binary-analysis` | 1 |
+| `decompiler` | 1 |
 
 #### Most persistent AI repos
 
 | Repo | Language | Days trending | Stars gained | Total stars |
 |---|---|--:|--:|--:|
-| [morluto/rea](https://github.com/morluto/rea) | TypeScript | 2 | 70,926 | 162,039 |
-| [storytold/artcraft](https://github.com/storytold/artcraft) | Rust | 2 | 7,052 | 22,314 |
-| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | HTML | 2 | 3,164 | 52,742 |
-| [lyogavin/airllm](https://github.com/lyogavin/airllm) | Jupyter Notebook | 2 | 1,427 | 37,596 |
+| [morluto/rea](https://github.com/morluto/rea) | TypeScript | 3 | 125,605 | 210,861 |
+| [storytold/artcraft](https://github.com/storytold/artcraft) | Rust | 3 | 11,133 | 25,882 |
+| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | HTML | 3 | 4,979 | 54,274 |
+| [lyogavin/airllm](https://github.com/lyogavin/airllm) | Jupyter Notebook | 3 | 2,428 | 38,383 |
+| [mksglu/context-mode](https://github.com/mksglu/context-mode) | TypeScript | 2 | 1,215 | 28,317 |
+| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | Python | 1 | 1,748 | 63,570 |
 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Python | 1 | 626 | 59,217 |
 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | Python | 1 | 315 | 104,537 |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | TypeScript | 1 | 246 | 27,356 |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | TypeScript | 1 | 190 | 34,571 |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | Python | 1 | 157 | 155,097 |
-| [microsoft/BitNet](https://github.com/microsoft/BitNet) | C++ | 1 | 97 | 40,936 |
 
 ➡️ Last full weekly analysis: [2026-W41](reports/weekly/2026-W41.md) · [all reports](reports/weekly)
 
-_Tracking since 2026-10-01 · 13 day(s) of data · [raw data](data/trending.csv)_
+_Tracking since 2026-10-01 · 14 day(s) of data · [raw data](data/trending.csv)_
 <!-- TRACKER_END -->
 
 ## How it works
