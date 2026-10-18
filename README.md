@@ -7,31 +7,33 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 ## Live view
 
 <!-- TRACKER_START -->
-### 🔥 AI repos trending today · 2026-10-17
+### 🔥 AI repos trending today · 2026-10-18
 
-10 of 13 trending repositories are AI-related.
+12 of 13 trending repositories are AI-related.
 
 | # | Repo | Language | ⭐ today | ⭐ total | Topics |
 |--:|---|---|--:|--:|---|
-| 1 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)<br><sub>Official, Anthropic-managed directory of high quality Claude Code Plugins.</sub> | Python | 1,552 | 40,654 | `claude-code` `mcp` `skills` |
-| 2 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)<br><sub>Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 2…</sub> | Python | 1,158 | 51,562 | `agent-skills` `ai-scientist` `bioinformatics` `chemoinformatics` |
-| 3 | [affaan-m/ECC](https://github.com/affaan-m/ECC)<br><sub>The agent harness performance optimization system. Skills, instincts, memory, security, an…</sub> | JavaScript | 1,057 | 281,572 | `ai-agents` `anthropic` `claude` `claude-code` |
-| 4 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)<br><sub>"CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/</sub> | Python | 281 | 53,546 | – |
-| 5 | [mksglu/context-mode](https://github.com/mksglu/context-mode)<br><sub>Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), p…</sub> | TypeScript | 449 | 30,260 | `antigravity` `claude` `claude-code` `claude-code-hooks` |
-| 6 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo)<br><sub>🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomou…</sub> | TypeScript | 672 | 75,660 | `agentic-ai` `agentic-framework` `agentic-workflow` `agents` |
-| 8 | [obra/superpowers](https://github.com/obra/superpowers)<br><sub>An agentic skills framework & software development methodology that works.</sub> | Shell | 973 | 300,712 | `ai` `brainstorming` `coding` `obra` |
-| 10 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)<br><sub>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice …</sub> | Python | 2,301 | 71,345 | `ai` `audiobook` `cuda` `dubbing` |
-| 11 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)<br><sub>The job search that runs on your machine. AI job application framework built on Claude Cod…</sub> | Python | 898 | 48,599 | `ai` `ai-agents` `career` `claude-code` |
-| 13 | [xerj-org/xerj](https://github.com/xerj-org/xerj)<br><sub>XERJ is the new way for AI to search data. Its autoindex capability activates agents to kn…</sub> | Rust | 1,648 | 6,999 | `ai-search` `ai-search-algorithms` `ai-search-engine` `ai-search-free` |
+| 1 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)<br><sub>Official, Anthropic-managed directory of high quality Claude Code Plugins.</sub> | Python | 1,397 | 41,831 | `claude-code` `mcp` `skills` |
+| 2 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)<br><sub>The job search that runs on your machine. AI job application framework built on Claude Cod…</sub> | Python | 1,365 | 50,525 | `ai` `ai-agents` `career` `claude-code` |
+| 3 | [affaan-m/ECC](https://github.com/affaan-m/ECC)<br><sub>The agent harness performance optimization system. Skills, instincts, memory, security, an…</sub> | JavaScript | 1,145 | 282,562 | `ai-agents` `anthropic` `claude` `claude-code` |
+| 4 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)<br><sub>"CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/</sub> | Python | 574 | 54,098 | – |
+| 5 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)<br><sub>Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 2…</sub> | Python | 878 | 52,284 | `agent-skills` `ai-scientist` `bioinformatics` `chemoinformatics` |
+| 6 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)<br><sub>Solution for long term memory for agent coding CLIs and to facilitate handoff between diff…</sub> | Rust | 178 | 9,953 | – |
+| 8 | [stablyai/orca](https://github.com/stablyai/orca)<br><sub>Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any…</sub> | TypeScript | 830 | 95,490 | `ade` `agent-ide` `ai-agents` `automation` |
+| 9 | [anthropics/claude-code](https://github.com/anthropics/claude-code)<br><sub>Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…</sub> | TypeScript | 179 | 151,805 | – |
+| 10 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)<br><sub>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice …</sub> | Python | 2,125 | 73,492 | `ai` `audiobook` `cuda` `dubbing` |
+| 11 | [anomalyco/opencode](https://github.com/anomalyco/opencode)<br><sub>The open source coding agent.</sub> | TypeScript | 438 | 215,433 | – |
+| 12 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo)<br><sub>🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomou…</sub> | TypeScript | 420 | 76,107 | `agentic-ai` `agentic-framework` `agentic-workflow` `agents` |
+| 13 | [xerj-org/xerj](https://github.com/xerj-org/xerj)<br><sub>XERJ is the new way for AI to search data. Its autoindex capability activates agents to kn…</sub> | Rust | 1,160 | 7,853 | `ai-search` `ai-search-algorithms` `ai-search-engine` `ai-search-free` |
 
 ### 📊 This week so far · 2026-W42
 
 #### Summary
 
-- **23** distinct AI repos trended over 6 day(s) (last week: 33)
-- AI share of all trending slots: **76%** (+3 pts vs last week)
-- Dominant language: **Python** (43% of AI repos)
-- Rising topics: `autonomous-agents` (+2), `skills` (+2), `ai-agents` (+1), `dsh-plugin` (+1), `mcp` (+1)
+- **27** distinct AI repos trended over 7 day(s) (last week: 33)
+- AI share of all trending slots: **79%** (+5 pts vs last week)
+- Dominant language: **Python** (37% of AI repos)
+- Rising topics: `ai-agents` (+2), `autonomous-agents` (+2), `skills` (+2), `dsh-plugin` (+1), `mcp` (+1)
 - New this week: `autonomous-agents`
 
 #### Languages
@@ -40,10 +42,10 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 
 | Language | Repos | Share | Last week |
 |---|--:|--:|--:|
-| Python | 10 | 43% | 10 |
-| TypeScript | 4 | 17% | 5 |
-| Rust | 2 | 9% | 2 |
-| Go | 2 | 9% | 1 |
+| Python | 10 | 37% | 10 |
+| TypeScript | 7 | 26% | 5 |
+| Rust | 3 | 11% | 2 |
+| Go | 2 | 7% | 1 |
 | HTML | 1 | 4% | 1 |
 | Jupyter Notebook | 1 | 4% | 0 |
 | C++ | 1 | 4% | 1 |
@@ -56,37 +58,37 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 
 | Topic | Repos this week |
 |---|--:|
-| `claude-code` | 7 |
-| `ai-agents` | 5 |
+| `claude-code` | 8 |
+| `ai-agents` | 6 |
 | `mcp` | 5 |
+| `codex` | 5 |
 | `claude` | 5 |
-| `codex` | 4 |
 | `skills` | 4 |
 | `agent-skills` | 3 |
 | `anthropic` | 3 |
 | `dsh-plugin` | 2 |
-| `developer-tools` | 2 |
 | `cli` | 2 |
-| `mcp-server` | 2 |
+| `developer-tools` | 2 |
+| `opencode` | 2 |
 
 #### Most persistent AI repos
 
 | Repo | Language | Days trending | Stars gained | Total stars |
 |---|---|--:|--:|--:|
 | [morluto/rea](https://github.com/morluto/rea) | TypeScript | 5 | 198,953 | 272,776 |
+| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | Python | 5 | 12,736 | 73,492 |
 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | TypeScript | 5 | 3,515 | 30,260 |
-| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | Python | 4 | 10,611 | 71,345 |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Python | 4 | 3,290 | 52,284 |
 | [storytold/artcraft](https://github.com/storytold/artcraft) | Rust | 3 | 11,133 | 25,882 |
 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | HTML | 3 | 4,979 | 54,274 |
+| [xerj-org/xerj](https://github.com/xerj-org/xerj) | Rust | 3 | 3,523 | 7,853 |
+| [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Python | 3 | 3,256 | 41,831 |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | JavaScript | 3 | 3,215 | 282,562 |
 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | Jupyter Notebook | 3 | 2,428 | 38,383 |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Python | 3 | 2,412 | 51,562 |
-| [xerj-org/xerj](https://github.com/xerj-org/xerj) | Rust | 2 | 2,363 | 6,999 |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | JavaScript | 2 | 2,070 | 281,572 |
-| [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Python | 2 | 1,859 | 40,654 |
 
 ➡️ Last full weekly analysis: [2026-W41](reports/weekly/2026-W41.md) · [all reports](reports/weekly)
 
-_Tracking since 2026-10-01 · 17 day(s) of data · [raw data](data/trending.csv)_
+_Tracking since 2026-10-01 · 18 day(s) of data · [raw data](data/trending.csv)_
 <!-- TRACKER_END -->
 
 ## How it works
