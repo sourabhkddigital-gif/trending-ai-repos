@@ -7,27 +7,26 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 ## Live view
 
 <!-- TRACKER_START -->
-### 🔥 AI repos trending today · 2026-10-23
+### 🔥 AI repos trending today · 2026-10-24
 
-6 of 9 trending repositories are AI-related.
+5 of 8 trending repositories are AI-related.
 
 | # | Repo | Language | ⭐ today | ⭐ total | Topics |
 |--:|---|---|--:|--:|---|
-| 2 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)<br><sub>Open source repository of plugins primarily intended for knowledge workers to use in Claud…</sub> | Python | 303 | 31,667 | – |
-| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)<br><sub>Makes your AI agent think like the laziest senior dev in the room. The best code is the co…</sub> | JavaScript | 1,948 | 173,623 | `agent-skills` `ai-agents` `claude` `claude-code` |
-| 4 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)<br><sub>A coding-agent skill for multi-phase security audits with independently verified, machine-…</sub> | JavaScript | 2,979 | 39,712 | – |
-| 5 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)<br><sub>Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…</sub> | Python | 1,408 | 133,052 | `ai-agents` `antigravity` `ast` `claude-code` |
-| 6 | [supabase/supabase](https://github.com/supabase/supabase)<br><sub>The Postgres development platform. Supabase gives you a dedicated Postgres database to bui…</sub> | TypeScript | 693 | 113,520 | `ai` `alternative` `auth` `database` |
-| 8 | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto)<br><sub>A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, wi…</sub> | Python | 177 | 43,309 | `claude-code` `guide` `tutorial` |
+| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)<br><sub>A coding-agent skill for multi-phase security audits with independently verified, machine-…</sub> | JavaScript | 2,716 | 42,262 | – |
+| 3 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)<br><sub>Open source repository of plugins primarily intended for knowledge workers to use in Claud…</sub> | Python | 635 | 32,256 | – |
+| 4 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)<br><sub>OpenShell is the safe, private runtime for autonomous AI agents.</sub> | Rust | 1,119 | 18,848 | – |
+| 6 | [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red)<br><sub>claude-red is a curated library of offensive security skills designed for the Claude skill…</sub> | Python | 226 | 8,538 | `claude-ai` `claude-pt` `claude-skills` `redteam` |
+| 7 | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)<br><sub>VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and…</sub> | Python | 150 | 40,294 | `audio` `deeplearning` `minicpm` `multilingual` |
 
 ### 📊 This week so far · 2026-W43
 
 #### Summary
 
-- **23** distinct AI repos trended over 5 day(s) (last week: 27)
-- AI share of all trending slots: **82%** (+3 pts vs last week)
-- Dominant language: **Python** (52% of AI repos)
-- Rising topics: `cursor` (+4), `antigravity` (+2), `claude-code-plugin` (+2), `cursor-rules` (+2), `postgresql` (+2)
+- **26** distinct AI repos trended over 6 day(s) (last week: 27)
+- AI share of all trending slots: **79%** (+0 pts vs last week)
+- Dominant language: **Python** (54% of AI repos)
+- Rising topics: `cursor` (+4), `pytorch` (+3), `antigravity` (+2), `claude-code-plugin` (+2), `cursor-rules` (+2)
 - New this week: `cursor`, `pytorch`, `cursor-rules`, `claude-code-plugin`, `postgresql`
 
 #### Languages
@@ -36,10 +35,10 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 
 | Language | Repos | Share | Last week |
 |---|--:|--:|--:|
-| Python | 12 | 52% | 10 |
-| TypeScript | 6 | 26% | 7 |
-| JavaScript | 2 | 9% | 1 |
-| Rust | 1 | 4% | 3 |
+| Python | 14 | 54% | 10 |
+| TypeScript | 6 | 23% | 7 |
+| Rust | 2 | 8% | 3 |
+| JavaScript | 2 | 8% | 1 |
 | Unspecified | 1 | 4% | 0 |
 | Shell | 1 | 4% | 1 |
 
@@ -52,24 +51,24 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 | `claude-code` | 9 |
 | `ai-agents` | 7 |
 | `mcp` | 5 |
+| `skills` | 4 |
 | `codex` | 4 |
 | `cursor` | 4 |
-| `skills` | 3 |
 | `claude` | 3 |
-| `developer-tools` | 3 |
+| `pytorch` | 3 |
 | `agent-skills` | 3 |
+| `developer-tools` | 3 |
 | `antigravity` | 3 |
-| `multi-agent` | 2 |
 | `agentic-ai` | 2 |
 
 #### Most persistent AI repos
 
 | Repo | Language | Days trending | Stars gained | Total stars |
 |---|---|--:|--:|--:|
+| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | JavaScript | 4 | 9,419 | 42,262 |
 | [stablyai/orca](https://github.com/stablyai/orca) | TypeScript | 4 | 5,842 | 101,432 |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Python | 4 | 3,310 | 141,584 |
 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | Python | 3 | 9,949 | 60,828 |
-| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | JavaScript | 3 | 6,703 | 39,712 |
 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | JavaScript | 3 | 5,235 | 173,623 |
 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | TypeScript | 3 | 3,965 | 219,013 |
 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Python | 3 | 3,643 | 133,052 |
@@ -79,7 +78,7 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 
 ➡️ Last full weekly analysis: [2026-W42](reports/weekly/2026-W42.md) · [all reports](reports/weekly)
 
-_Tracking since 2026-10-01 · 23 day(s) of data · [raw data](data/trending.csv)_
+_Tracking since 2026-10-01 · 24 day(s) of data · [raw data](data/trending.csv)_
 <!-- TRACKER_END -->
 
 ## How it works
