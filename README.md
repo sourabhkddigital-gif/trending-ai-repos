@@ -7,27 +7,30 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 ## Live view
 
 <!-- TRACKER_START -->
-### 🔥 AI repos trending today · 2026-10-24
+### 🔥 AI repos trending today · 2026-10-25
 
-5 of 8 trending repositories are AI-related.
+8 of 10 trending repositories are AI-related.
 
 | # | Repo | Language | ⭐ today | ⭐ total | Topics |
 |--:|---|---|--:|--:|---|
-| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)<br><sub>A coding-agent skill for multi-phase security audits with independently verified, machine-…</sub> | JavaScript | 2,716 | 42,262 | – |
-| 3 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)<br><sub>Open source repository of plugins primarily intended for knowledge workers to use in Claud…</sub> | Python | 635 | 32,256 | – |
-| 4 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)<br><sub>OpenShell is the safe, private runtime for autonomous AI agents.</sub> | Rust | 1,119 | 18,848 | – |
-| 6 | [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red)<br><sub>claude-red is a curated library of offensive security skills designed for the Claude skill…</sub> | Python | 226 | 8,538 | `claude-ai` `claude-pt` `claude-skills` `redteam` |
-| 7 | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)<br><sub>VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and…</sub> | Python | 150 | 40,294 | `audio` `deeplearning` `minicpm` `multilingual` |
+| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)<br><sub>A coding-agent skill for multi-phase security audits with independently verified, machine-…</sub> | JavaScript | 2,264 | 44,727 | – |
+| 2 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)<br><sub>OpenShell is the safe, private runtime for autonomous AI agents.</sub> | Rust | 896 | 19,514 | – |
+| 3 | [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws)<br><sub>Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS</sub> | Python | 13 | 3,153 | – |
+| 4 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark)<br><sub>Anti-AI-slop design skill for Claude Code, Cursor, and Codex.</sub> | CSS | 455 | 32,224 | – |
+| 5 | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto)<br><sub>A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, wi…</sub> | Python | 392 | 44,607 | `claude-code` `guide` `tutorial` |
+| 6 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable)<br><sub>The design language that makes your AI harness better at design.</sub> | Rust | 619 | 86,477 | – |
+| 8 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)<br><sub>An open-source AI agent that brings the power of Gemini directly into your terminal.</sub> | TypeScript | 44 | 108,098 | `ai` `ai-agents` `cli` `gemini` |
+| 10 | [makecindy/cindy](https://github.com/makecindy/cindy)<br><sub>Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI…</sub> | TypeScript | 477 | 4,138 | `agent` `ai-agent` `ai-assistant` `android` |
 
 ### 📊 This week so far · 2026-W43
 
 #### Summary
 
-- **26** distinct AI repos trended over 6 day(s) (last week: 27)
-- AI share of all trending slots: **79%** (+0 pts vs last week)
-- Dominant language: **Python** (54% of AI repos)
-- Rising topics: `cursor` (+4), `pytorch` (+3), `antigravity` (+2), `claude-code-plugin` (+2), `cursor-rules` (+2)
-- New this week: `cursor`, `pytorch`, `cursor-rules`, `claude-code-plugin`, `postgresql`
+- **31** distinct AI repos trended over 7 day(s) (last week: 27)
+- AI share of all trending slots: **79%** (+1 pts vs last week)
+- Dominant language: **Python** (48% of AI repos)
+- Rising topics: `cursor` (+4), `pytorch` (+3), `agent` (+2), `ai-agents` (+2), `antigravity` (+2)
+- New this week: `cursor`, `pytorch`, `agent`, `claude-code-plugin`, `cursor-rules`, `gemini`
 
 #### Languages
 
@@ -35,12 +38,13 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 
 | Language | Repos | Share | Last week |
 |---|--:|--:|--:|
-| Python | 14 | 54% | 10 |
-| TypeScript | 6 | 23% | 7 |
-| Rust | 2 | 8% | 3 |
-| JavaScript | 2 | 8% | 1 |
-| Unspecified | 1 | 4% | 0 |
-| Shell | 1 | 4% | 1 |
+| Python | 15 | 48% | 10 |
+| TypeScript | 8 | 26% | 7 |
+| Rust | 3 | 10% | 3 |
+| JavaScript | 2 | 6% | 1 |
+| Unspecified | 1 | 3% | 0 |
+| Shell | 1 | 3% | 1 |
+| CSS | 1 | 3% | 0 |
 
 #### Topics
 
@@ -48,16 +52,16 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 
 | Topic | Repos this week |
 |---|--:|
-| `claude-code` | 9 |
-| `ai-agents` | 7 |
+| `claude-code` | 10 |
+| `ai-agents` | 8 |
 | `mcp` | 5 |
+| `codex` | 5 |
 | `skills` | 4 |
-| `codex` | 4 |
 | `cursor` | 4 |
 | `claude` | 3 |
 | `pytorch` | 3 |
-| `agent-skills` | 3 |
 | `developer-tools` | 3 |
+| `agent-skills` | 3 |
 | `antigravity` | 3 |
 | `agentic-ai` | 2 |
 
@@ -65,7 +69,7 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 
 | Repo | Language | Days trending | Stars gained | Total stars |
 |---|---|--:|--:|--:|
-| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | JavaScript | 4 | 9,419 | 42,262 |
+| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | JavaScript | 5 | 11,683 | 44,727 |
 | [stablyai/orca](https://github.com/stablyai/orca) | TypeScript | 4 | 5,842 | 101,432 |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Python | 4 | 3,310 | 141,584 |
 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | Python | 3 | 9,949 | 60,828 |
@@ -78,7 +82,7 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 
 ➡️ Last full weekly analysis: [2026-W42](reports/weekly/2026-W42.md) · [all reports](reports/weekly)
 
-_Tracking since 2026-10-01 · 24 day(s) of data · [raw data](data/trending.csv)_
+_Tracking since 2026-10-01 · 25 day(s) of data · [raw data](data/trending.csv)_
 <!-- TRACKER_END -->
 
 ## How it works
