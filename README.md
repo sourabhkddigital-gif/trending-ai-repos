@@ -7,82 +7,77 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 ## Live view
 
 <!-- TRACKER_START -->
-### 🔥 AI repos trending today · 2026-10-25
+### 🔥 AI repos trending today · 2026-10-26
 
-8 of 10 trending repositories are AI-related.
+8 of 11 trending repositories are AI-related.
 
 | # | Repo | Language | ⭐ today | ⭐ total | Topics |
 |--:|---|---|--:|--:|---|
-| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)<br><sub>A coding-agent skill for multi-phase security audits with independently verified, machine-…</sub> | JavaScript | 2,264 | 44,727 | – |
-| 2 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)<br><sub>OpenShell is the safe, private runtime for autonomous AI agents.</sub> | Rust | 896 | 19,514 | – |
-| 3 | [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws)<br><sub>Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS</sub> | Python | 13 | 3,153 | – |
-| 4 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark)<br><sub>Anti-AI-slop design skill for Claude Code, Cursor, and Codex.</sub> | CSS | 455 | 32,224 | – |
-| 5 | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto)<br><sub>A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, wi…</sub> | Python | 392 | 44,607 | `claude-code` `guide` `tutorial` |
-| 6 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable)<br><sub>The design language that makes your AI harness better at design.</sub> | Rust | 619 | 86,477 | – |
-| 8 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)<br><sub>An open-source AI agent that brings the power of Gemini directly into your terminal.</sub> | TypeScript | 44 | 108,098 | `ai` `ai-agents` `cli` `gemini` |
-| 10 | [makecindy/cindy](https://github.com/makecindy/cindy)<br><sub>Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI…</sub> | TypeScript | 477 | 4,138 | `agent` `ai-agent` `ai-assistant` `android` |
+| 1 | [makecindy/cindy](https://github.com/makecindy/cindy)<br><sub>Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI…</sub> | TypeScript | 675 | 4,996 | `agent` `ai-agent` `ai-assistant` `android` |
+| 2 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark)<br><sub>Anti-AI-slop design skill for Claude Code, Cursor, and Codex.</sub> | CSS | 1,317 | 34,011 | – |
+| 3 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)<br><sub>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice …</sub> | Python | 1,592 | 87,000 | `ai` `audiobook` `cuda` `dubbing` |
+| 4 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable)<br><sub>The design language that makes your AI harness better at design.</sub> | Rust | 1,092 | 87,831 | – |
+| 6 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)<br><sub>TradingAgents: Multi-Agents LLM Financial Trading Framework</sub> | Python | 381 | 114,726 | `agent` `finance` `llm` `multiagent` |
+| 8 | [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)<br><sub>Vibe code with pi in a lightweight, real IDE that customises itself around the way you wor…</sub> | TypeScript | 51 | 1,853 | `agent` `agent-skills` `agentic-ai` `agentic-workflow` |
+| 10 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)<br><sub>A coding-agent skill for multi-phase security audits with independently verified, machine-…</sub> | JavaScript | 2,878 | 47,064 | – |
+| 11 | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo)<br><sub>Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO,…</sub> | Python | 197 | 21,003 | `ai` `ai-seo` `claude-code` `claude-code-skill` |
 
-### 📊 This week so far · 2026-W43
+### 📊 This week so far · 2026-W44
 
 #### Summary
 
-- **31** distinct AI repos trended over 7 day(s) (last week: 27)
-- AI share of all trending slots: **79%** (+1 pts vs last week)
-- Dominant language: **Python** (48% of AI repos)
-- Rising topics: `cursor` (+4), `pytorch` (+3), `agent` (+2), `ai-agents` (+2), `antigravity` (+2)
-- New this week: `cursor`, `pytorch`, `agent`, `claude-code-plugin`, `cursor-rules`, `gemini`
+- **8** distinct AI repos trended over 1 day(s) (last week: 31)
+- AI share of all trending slots: **73%** (-7 pts vs last week)
+- Dominant language: **Python** (38% of AI repos)
+- Rising topics: `agent` (+1)
 
 #### Languages
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="charts/2026-W43-languages-dark.png"><img alt="Languages of trending AI repos" src="charts/2026-W43-languages.png"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="charts/2026-W44-languages-dark.png"><img alt="Languages of trending AI repos" src="charts/2026-W44-languages.png"></picture>
 
 | Language | Repos | Share | Last week |
 |---|--:|--:|--:|
-| Python | 15 | 48% | 10 |
-| TypeScript | 8 | 26% | 7 |
-| Rust | 3 | 10% | 3 |
-| JavaScript | 2 | 6% | 1 |
-| Unspecified | 1 | 3% | 0 |
-| Shell | 1 | 3% | 1 |
-| CSS | 1 | 3% | 0 |
+| Python | 3 | 38% | 15 |
+| TypeScript | 2 | 25% | 8 |
+| CSS | 1 | 12% | 1 |
+| Rust | 1 | 12% | 3 |
+| JavaScript | 1 | 12% | 2 |
 
 #### Topics
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="charts/2026-W43-topics-dark.png"><img alt="Topic movers" src="charts/2026-W43-topics.png"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="charts/2026-W44-topics-dark.png"><img alt="Topic movers" src="charts/2026-W44-topics.png"></picture>
 
 | Topic | Repos this week |
 |---|--:|
-| `claude-code` | 10 |
-| `ai-agents` | 8 |
-| `mcp` | 5 |
-| `codex` | 5 |
-| `skills` | 4 |
-| `cursor` | 4 |
-| `claude` | 3 |
-| `pytorch` | 3 |
-| `developer-tools` | 3 |
-| `agent-skills` | 3 |
-| `antigravity` | 3 |
-| `agentic-ai` | 2 |
+| `agent` | 3 |
+| `claude-code` | 2 |
+| `ai-agent` | 1 |
+| `ios` | 1 |
+| `electron` | 1 |
+| `android` | 1 |
+| `codex` | 1 |
+| `ai-assistant` | 1 |
+| `macos` | 1 |
+| `react-native` | 1 |
+| `windows` | 1 |
+| `elevenlabs-alternative` | 1 |
 
 #### Most persistent AI repos
 
 | Repo | Language | Days trending | Stars gained | Total stars |
 |---|---|--:|--:|--:|
-| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | JavaScript | 5 | 11,683 | 44,727 |
-| [stablyai/orca](https://github.com/stablyai/orca) | TypeScript | 4 | 5,842 | 101,432 |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Python | 4 | 3,310 | 141,584 |
-| [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | Python | 3 | 9,949 | 60,828 |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | JavaScript | 3 | 5,235 | 173,623 |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | TypeScript | 3 | 3,965 | 219,013 |
-| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Python | 3 | 3,643 | 133,052 |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | TypeScript | 3 | 1,761 | 77,894 |
-| [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Rust | 3 | 1,464 | 12,384 |
-| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | Python | 3 | 1,333 | 77,303 |
+| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | JavaScript | 1 | 2,878 | 47,064 |
+| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | Python | 1 | 1,592 | 87,000 |
+| [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | CSS | 1 | 1,317 | 34,011 |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Rust | 1 | 1,092 | 87,831 |
+| [makecindy/cindy](https://github.com/makecindy/cindy) | TypeScript | 1 | 675 | 4,996 |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | Python | 1 | 381 | 114,726 |
+| [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Python | 1 | 197 | 21,003 |
+| [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | TypeScript | 1 | 51 | 1,853 |
 
-➡️ Last full weekly analysis: [2026-W42](reports/weekly/2026-W42.md) · [all reports](reports/weekly)
+➡️ Last full weekly analysis: [2026-W43](reports/weekly/2026-W43.md) · [all reports](reports/weekly)
 
-_Tracking since 2026-10-01 · 25 day(s) of data · [raw data](data/trending.csv)_
+_Tracking since 2026-10-01 · 26 day(s) of data · [raw data](data/trending.csv)_
 <!-- TRACKER_END -->
 
 ## How it works
