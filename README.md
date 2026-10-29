@@ -7,31 +7,33 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 ## Live view
 
 <!-- TRACKER_START -->
-### 🔥 AI repos trending today · 2026-10-28
+### 🔥 AI repos trending today · 2026-10-29
 
-10 of 11 trending repositories are AI-related.
+11 of 14 trending repositories are AI-related.
 
 | # | Repo | Language | ⭐ today | ⭐ total | Topics |
 |--:|---|---|--:|--:|---|
-| 1 | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills)<br><sub></sub> | – | 1,395 | 9,589 | – |
-| 2 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark)<br><sub>Anti-AI-slop design skill for Claude Code, Cursor, and Codex.</sub> | CSS | 2,830 | 39,173 | – |
-| 3 | [nightly-labs/openbot](https://github.com/nightly-labs/openbot)<br><sub>A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok w…</sub> | TypeScript | 777 | 2,539 | `ai-agents` `bun` `codex` `electron` |
-| 4 | [obra/superpowers](https://github.com/obra/superpowers)<br><sub>An agentic skills framework & software development methodology that works.</sub> | Shell | 617 | 306,521 | `ai` `brainstorming` `coding` `obra` |
-| 5 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable)<br><sub>The design language that makes your AI harness better at design.</sub> | Rust | 1,449 | 90,707 | – |
-| 6 | [makecindy/cindy](https://github.com/makecindy/cindy)<br><sub>Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI…</sub> | TypeScript | 1,465 | 7,550 | `agent` `ai-agent` `ai-assistant` `android` |
-| 7 | [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)<br><sub>📨 The ultimate agentic social media scheduling tool 🤖</sub> | TypeScript | 951 | 39,465 | `nextjs` `open-source` `open-source-social-media-scheduling-tool` `oss` |
-| 8 | [affaan-m/ECC](https://github.com/affaan-m/ECC)<br><sub>The agent harness performance optimization system. Skills, instincts, memory, security, an…</sub> | JavaScript | 1,165 | 290,966 | `ai-agents` `anthropic` `claude` `claude-code` |
-| 9 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)<br><sub>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .</sub> | Python | 1,598 | 46,116 | `ai-agents` `ai-tutor` `clawbot` `cli-tool` |
-| 10 | [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)<br><sub>Vibe code with pi in a lightweight, real IDE that customises itself around the way you wor…</sub> | TypeScript | 1,204 | 4,133 | `agent` `agent-skills` `agentic-ai` `agentic-workflow` |
+| 1 | [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)<br><sub>Vibe code with pi in a lightweight, real IDE that customises itself around the way you wor…</sub> | TypeScript | 1,068 | 5,179 | `agent` `agent-skills` `agentic-ai` `agentic-workflow` |
+| 2 | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills)<br><sub></sub> | – | 2,139 | 11,251 | – |
+| 3 | [obra/superpowers](https://github.com/obra/superpowers)<br><sub>An agentic skills framework & software development methodology that works.</sub> | Shell | 1,095 | 307,523 | `ai` `brainstorming` `coding` `obra` |
+| 4 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)<br><sub>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .</sub> | Python | 2,371 | 48,185 | `ai-agents` `ai-tutor` `clawbot` `cli-tool` |
+| 5 | [macro-inc/macro](https://github.com/macro-inc/macro)<br><sub>Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM —…</sub> | Rust | 117 | 5,463 | `agent` `ai` `ai-agents` `all-in-one` |
+| 6 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark)<br><sub>Anti-AI-slop design skill for Claude Code, Cursor, and Codex.</sub> | CSS | 2,110 | 40,845 | – |
+| 7 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable)<br><sub>The design vocabulary for your coding agent. Steer with polish and bolder, review with cri…</sub> | Rust | 1,472 | 92,933 | `agent-skills` `ai` `anti-slop` `design` |
+| 8 | [makecindy/cindy](https://github.com/makecindy/cindy)<br><sub>Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI…</sub> | TypeScript | 728 | 8,173 | `agent` `ai-agent` `ai-assistant` `android` |
+| 9 | [nightly-labs/openbot](https://github.com/nightly-labs/openbot)<br><sub>A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok w…</sub> | TypeScript | 1,054 | 3,315 | `ai-agents` `bun` `codex` `electron` |
+| 12 | [expo/skills](https://github.com/expo/skills)<br><sub>A collection of AI agent skills for working with Expo projects and Expo Application Servic…</sub> | Shell | 90 | 3,621 | – |
+| 13 | [ruvnet/RuView](https://github.com/ruvnet/RuView)<br><sub>π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign moni…</sub> | Rust | 557 | 101,122 | `awesome` `claude` `densepose` `esp32` |
 
 ### 📊 This week so far · 2026-W44
 
 #### Summary
 
-- **18** distinct AI repos trended over 3 day(s) (last week: 31)
-- AI share of all trending slots: **86%** (+7 pts vs last week)
-- Dominant language: **Python** (33% of AI repos)
-- Rising topics: `agent` (+1), `ai-agent` (+1), `electron` (+1), `local-first` (+1), `macos` (+1)
+- **21** distinct AI repos trended over 4 day(s) (last week: 31)
+- AI share of all trending slots: **84%** (+5 pts vs last week)
+- Dominant language: **Python** (29% of AI repos)
+- Rising topics: `agent` (+2), `design` (+2), `agent-skills` (+1), `ai-agent` (+1), `electron` (+1)
+- New this week: `design`
 
 #### Languages
 
@@ -39,14 +41,14 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 
 | Language | Repos | Share | Last week |
 |---|--:|--:|--:|
-| Python | 6 | 33% | 15 |
-| TypeScript | 4 | 22% | 8 |
-| JavaScript | 2 | 11% | 2 |
-| Unspecified | 2 | 11% | 1 |
-| CSS | 1 | 6% | 1 |
-| Rust | 1 | 6% | 3 |
-| HTML | 1 | 6% | 0 |
-| Shell | 1 | 6% | 1 |
+| Python | 6 | 29% | 15 |
+| TypeScript | 4 | 19% | 8 |
+| Rust | 3 | 14% | 3 |
+| JavaScript | 2 | 10% | 2 |
+| Unspecified | 2 | 10% | 1 |
+| Shell | 2 | 10% | 1 |
+| CSS | 1 | 5% | 1 |
+| HTML | 1 | 5% | 0 |
 
 #### Topics
 
@@ -55,36 +57,36 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 | Topic | Repos this week |
 |---|--:|
 | `claude-code` | 6 |
-| `agent` | 3 |
+| `agent` | 4 |
+| `agent-skills` | 4 |
+| `ai-agents` | 4 |
+| `mcp` | 4 |
 | `codex` | 3 |
-| `agent-skills` | 3 |
-| `ai-agents` | 3 |
-| `mcp` | 3 |
-| `ai-agent` | 2 |
-| `electron` | 2 |
 | `macos` | 2 |
+| `electron` | 2 |
+| `ai-agent` | 2 |
 | `local-first` | 2 |
+| `design` | 2 |
 | `agentic-ai` | 2 |
-| `cursor` | 2 |
 
 #### Most persistent AI repos
 
 | Repo | Language | Days trending | Stars gained | Total stars |
 |---|---|--:|--:|--:|
-| [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | CSS | 3 | 6,391 | 39,173 |
-| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Rust | 3 | 4,047 | 90,707 |
-| [makecindy/cindy](https://github.com/makecindy/cindy) | TypeScript | 3 | 3,436 | 7,550 |
-| [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | TypeScript | 3 | 2,428 | 4,133 |
+| [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | CSS | 4 | 8,501 | 40,845 |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Rust | 4 | 5,519 | 92,933 |
+| [makecindy/cindy](https://github.com/makecindy/cindy) | TypeScript | 4 | 4,164 | 8,173 |
+| [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | TypeScript | 4 | 3,496 | 5,179 |
+| [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | TypeScript | 3 | 2,007 | 3,315 |
+| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | Python | 2 | 3,969 | 48,185 |
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | Python | 2 | 3,889 | 89,444 |
+| [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) | – | 2 | 3,534 | 11,251 |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | JavaScript | 2 | 2,061 | 290,966 |
 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | Python | 2 | 1,776 | 116,241 |
-| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | TypeScript | 2 | 1,139 | 39,465 |
-| [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | TypeScript | 2 | 953 | 2,539 |
-| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | JavaScript | 1 | 2,878 | 47,064 |
 
 ➡️ Last full weekly analysis: [2026-W43](reports/weekly/2026-W43.md) · [all reports](reports/weekly)
 
-_Tracking since 2026-10-01 · 28 day(s) of data · [raw data](data/trending.csv)_
+_Tracking since 2026-10-01 · 29 day(s) of data · [raw data](data/trending.csv)_
 <!-- TRACKER_END -->
 
 ## How it works
