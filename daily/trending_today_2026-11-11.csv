@@ -1,0 +1,13 @@
+﻿rank,repo,url,description,language,stars_today,total_stars,forks,topics,license,is_ai
+1,meta/astryx,https://github.com/meta/astryx,An open source design system that's fully customizable and agent ready,TypeScript,3108,23886,1874,,MIT,yes
+2,anthropics/skills,https://github.com/anthropics/skills,Public repository for Agent Skills,Python,1679,192717,22679,agent-skills,,yes
+3,addyosmani/agent-skills,https://github.com/addyosmani/agent-skills,Production-grade engineering skills for AI coding agents.,JavaScript,465,115457,12116,agent-skills antigravity claude-code codex cursor skills,MIT,yes
+4,anthropics/claude-quickstarts,https://github.com/anthropics/claude-quickstarts,A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API,Python,531,20676,3480,,MIT,yes
+5,google-deepmind/mujoco,https://github.com/google-deepmind/mujoco,Multi-Joint dynamics with Contact. A general purpose physics simulator.,C++,456,17536,2160,mujoco physics robotics,Apache-2.0,no
+6,we-promise/sure,https://github.com/we-promise/sure,The personal finance app for everyone (by everyone),Ruby,159,12361,916,,AGPL-3.0,no
+7,homeassistant-ai/ha-mcp,https://github.com/homeassistant-ai/ha-mcp,"Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",Python,790,6893,442,ai claude hacs home-assistant home-automation llm mcp model-context-protocol,MIT,yes
+8,vercel-labs/agent-browser,https://github.com/vercel-labs/agent-browser,Browser automation CLI for AI agents,Rust,780,49502,3468,,Apache-2.0,yes
+9,sherlock-project/sherlock,https://github.com/sherlock-project/sherlock,Hunt down social media accounts by username across social networks,Python,2393,109601,12705,cli cti cybersecurity forensics hacktoberfest information-gathering infosec linux osint pentesting python python3 reconnaissance redteam sherlock tools,MIT,no
+10,tokio-rs/topcoat,https://github.com/tokio-rs/topcoat,A batteries-included framework for building web apps,Rust,192,7010,311,,MIT,no
+11,ranxianglei/billion-context,https://github.com/ranxianglei/billion-context,"A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",TypeScript,375,6625,543,,,no
+12,mattpocock/skills,https://github.com/mattpocock/skills,Skills for Real Engineers. Straight from my .agents directory.,Shell,1225,321361,26936,,MIT,yes
