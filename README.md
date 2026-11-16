@@ -7,87 +7,81 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 ## Live view
 
 <!-- TRACKER_START -->
-### 🔥 AI repos trending today · 2026-11-15
+### 🔥 AI repos trending today · 2026-11-16
 
-12 of 15 trending repositories are AI-related.
+12 of 12 trending repositories are AI-related.
 
 | # | Repo | Language | ⭐ today | ⭐ total | Topics |
 |--:|---|---|--:|--:|---|
-| 1 | [backnotprop/plannotator](https://github.com/backnotprop/plannotator)<br><sub>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, re…</sub> | TypeScript | 408 | 11,433 | `agents` `claude-code` `code-review` `codex` |
-| 2 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)<br><sub>Keep your coding agent up to date with the latest web best practices</sub> | TypeScript | 1,231 | 6,395 | – |
-| 3 | [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills)<br><sub>Claude Code skills for equity investors and traders — market analysis, technical charting,…</sub> | Python | 553 | 5,061 | – |
-| 4 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)<br><sub>Chrome DevTools for coding agents</sub> | TypeScript | 664 | 56,520 | `browser` `chrome` `chrome-devtools` `debugging` |
-| 5 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review)<br><sub>Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review…</sub> | Go | 893 | 51,626 | `agent` `agent-skills` `code-review` `code-review-assistant` |
-| 6 | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)<br><sub>An open-source AI coding agent that lives in your terminal.</sub> | TypeScript | 64 | 30,452 | `agentic` `ai` `ai-agent` `ai-coding` |
-| 7 | [dream-num/univer](https://github.com/dream-num/univer)<br><sub>Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration…</sub> | TypeScript | 495 | 25,143 | `board` `collaboration` `doc` `docx` |
-| 8 | [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui)<br><sub>AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.</sub> | TypeScript | 9 | 17,490 | `ag-ui-protocol` `agent-frontend` `agent-ui` `agentic-workflow` |
-| 9 | [ashhart/TensorFold](https://github.com/ashhart/TensorFold)<br><sub>LLM Inference Engine for Metal, CUDA and Vulkan.</sub> | Zig | 37 | 2,215 | `ai` `ai-tools` `llm` `llm-inference` |
-| 10 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)<br><sub>🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…</sub> | Go | 227 | 120,235 | `ai` `anthropic` `caveman` `claude` |
-| 13 | [Tencent/LoopForge](https://github.com/Tencent/LoopForge)<br><sub>Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude C…</sub> | Go | 33 | 1,063 | `agent-orchestration` `agentic-workflow` `ai-agents` `ai-coding` |
-| 14 | [Likely7/Veyra-NRVideo](https://github.com/Likely7/Veyra-NRVideo)<br><sub>Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhance…</sub> | C++ | 420 | 2,474 | – |
+| 1 | [dream-num/univer](https://github.com/dream-num/univer)<br><sub>Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration…</sub> | TypeScript | 988 | 26,742 | `board` `collaboration` `doc` `docx` |
+| 2 | [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui)<br><sub>AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.</sub> | TypeScript | 355 | 18,249 | `ag-ui-protocol` `agent-frontend` `agent-ui` `agentic-workflow` |
+| 3 | [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)<br><sub>A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows …</sub> | TypeScript | 247 | 9,519 | – |
+| 4 | [backnotprop/plannotator](https://github.com/backnotprop/plannotator)<br><sub>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, re…</sub> | TypeScript | 866 | 12,135 | `agents` `claude-code` `code-review` `codex` |
+| 5 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)<br><sub>Chrome DevTools for coding agents</sub> | TypeScript | 717 | 57,323 | `browser` `chrome` `chrome-devtools` `debugging` |
+| 6 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review)<br><sub>Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review…</sub> | Go | 691 | 52,525 | `agent` `agent-skills` `code-review` `code-review-assistant` |
+| 7 | [Tencent/LoopForge](https://github.com/Tencent/LoopForge)<br><sub>Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude C…</sub> | Go | 423 | 2,053 | `agent-orchestration` `agentic-workflow` `ai-agents` `ai-coding` |
+| 8 | [ggml-org/ggml](https://github.com/ggml-org/ggml)<br><sub>Tensor library for machine learning</sub> | C++ | 43 | 16,037 | `machine-learning` |
+| 9 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)<br><sub>A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slas…</sub> | Python | 98 | 6,897 | `ai-security` `anthropic` `application-security` `bug-bounty` |
+| 10 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)<br><sub>Keep your coding agent up to date with the latest web best practices</sub> | TypeScript | 1,219 | 7,612 | – |
+| 11 | [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills)<br><sub>Claude Code skills for equity investors and traders — market analysis, technical charting,…</sub> | Python | 706 | 5,888 | – |
+| 12 | [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)<br><sub>Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap d…</sub> | Python | 122 | 2,094 | `agent-evaluation` `agent-plugins` `agent-security` `agent-skills` |
 
-### 📊 This week so far · 2026-W46
+### 📊 This week so far · 2026-W47
 
 #### Summary
 
-- **27** distinct AI repos trended over 7 day(s) (last week: 58)
-- AI share of all trending slots: **68%** (-5 pts vs last week)
-- Dominant language: **TypeScript** (41% of AI repos)
-- Rising topics: `agentic-workflow` (+2), `code-review` (+2), `home-assistant` (+2), `home-automation` (+2), `sdk` (+2)
-- New this week: `home-assistant`, `home-automation`, `sdk`, `agentic-workflow`
+- **12** distinct AI repos trended over 1 day(s) (last week: 27)
+- AI share of all trending slots: **100%** (+32 pts vs last week)
+- Dominant language: **TypeScript** (50% of AI repos)
 
 #### Languages
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="charts/2026-W46-languages-dark.png"><img alt="Languages of trending AI repos" src="charts/2026-W46-languages.png"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="charts/2026-W47-languages-dark.png"><img alt="Languages of trending AI repos" src="charts/2026-W47-languages.png"></picture>
 
 | Language | Repos | Share | Last week |
 |---|--:|--:|--:|
-| TypeScript | 11 | 41% | 12 |
-| Python | 6 | 22% | 21 |
-| Go | 3 | 11% | 1 |
-| Rust | 2 | 7% | 6 |
-| C++ | 2 | 7% | 0 |
-| JavaScript | 1 | 4% | 7 |
-| Shell | 1 | 4% | 2 |
-| Zig | 1 | 4% | 1 |
+| TypeScript | 6 | 50% | 11 |
+| Python | 3 | 25% | 6 |
+| Go | 2 | 17% | 3 |
+| C++ | 1 | 8% | 2 |
 
 #### Topics
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="charts/2026-W46-topics-dark.png"><img alt="Topic movers" src="charts/2026-W46-topics.png"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="charts/2026-W47-topics-dark.png"><img alt="Topic movers" src="charts/2026-W47-topics.png"></picture>
 
 | Topic | Repos this week |
 |---|--:|
-| `claude-code` | 6 |
-| `mcp` | 6 |
-| `codex` | 5 |
-| `ai-agents` | 4 |
-| `agent-skills` | 3 |
-| `claude` | 3 |
+| `claude-code` | 4 |
 | `code-review` | 3 |
-| `self-hosted` | 2 |
-| `home-assistant` | 2 |
-| `home-automation` | 2 |
-| `ai-agent` | 2 |
+| `codex` | 3 |
+| `agentic-workflow` | 2 |
+| `ai-agents` | 2 |
 | `skills` | 2 |
+| `mcp` | 2 |
+| `agent-skills` | 2 |
+| `pdf` | 1 |
+| `spreadsheet` | 1 |
+| `doc` | 1 |
+| `excel` | 1 |
 
 #### Most persistent AI repos
 
 | Repo | Language | Days trending | Stars gained | Total stars |
 |---|---|--:|--:|--:|
-| [meta/astryx](https://github.com/meta/astryx) | TypeScript | 5 | 11,867 | 27,008 |
-| [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Rust | 4 | 3,219 | 50,120 |
-| [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | TypeScript | 3 | 3,895 | 6,395 |
-| [anthropics/skills](https://github.com/anthropics/skills) | Python | 3 | 3,509 | 192,717 |
-| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | JavaScript | 3 | 2,068 | 116,931 |
-| [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | Python | 3 | 1,466 | 7,608 |
-| [openai/codex-security](https://github.com/openai/codex-security) | TypeScript | 3 | 1,446 | 13,320 |
-| [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | Python | 3 | 1,114 | 20,676 |
-| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | Python | 3 | 1,040 | 71,950 |
-| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | TypeScript | 2 | 3,026 | 20,242 |
+| [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | TypeScript | 1 | 1,219 | 7,612 |
+| [dream-num/univer](https://github.com/dream-num/univer) | TypeScript | 1 | 988 | 26,742 |
+| [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | TypeScript | 1 | 866 | 12,135 |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | TypeScript | 1 | 717 | 57,323 |
+| [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) | Python | 1 | 706 | 5,888 |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Go | 1 | 691 | 52,525 |
+| [Tencent/LoopForge](https://github.com/Tencent/LoopForge) | Go | 1 | 423 | 2,053 |
+| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | TypeScript | 1 | 355 | 18,249 |
+| [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) | TypeScript | 1 | 247 | 9,519 |
+| [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) | Python | 1 | 122 | 2,094 |
 
-➡️ Last full weekly analysis: [2026-W45](reports/weekly/2026-W45.md) · [all reports](reports/weekly)
+➡️ Last full weekly analysis: [2026-W46](reports/weekly/2026-W46.md) · [all reports](reports/weekly)
 
-_Tracking since 2026-10-01 · 46 day(s) of data · [raw data](data/trending.csv)_
+_Tracking since 2026-10-01 · 47 day(s) of data · [raw data](data/trending.csv)_
 <!-- TRACKER_END -->
 
 ## How it works
