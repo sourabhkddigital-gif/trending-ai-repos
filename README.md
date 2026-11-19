@@ -7,33 +7,32 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 ## Live view
 
 <!-- TRACKER_START -->
-### 🔥 AI repos trending today · 2026-11-18
+### 🔥 AI repos trending today · 2026-11-19
 
-12 of 15 trending repositories are AI-related.
+11 of 19 trending repositories are AI-related.
 
 | # | Repo | Language | ⭐ today | ⭐ total | Topics |
 |--:|---|---|--:|--:|---|
-| 1 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)<br><sub>A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slas…</sub> | Python | 1,005 | 10,202 | `ai-security` `anthropic` `application-security` `bug-bounty` |
-| 2 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)<br><sub>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and th…</sub> | Python | 696 | 69,496 | `ai-prompts` `ai-skill` `bluesky` `claude` |
-| 3 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review)<br><sub>Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review…</sub> | Go | 763 | 54,052 | `agent` `agent-skills` `code-review` `code-review-assistant` |
-| 4 | [Tencent/LoopForge](https://github.com/Tencent/LoopForge)<br><sub>Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude C…</sub> | Go | 591 | 3,676 | `agent-orchestration` `agentic-workflow` `ai-agents` `ai-coding` |
-| 5 | [dream-num/univer](https://github.com/dream-num/univer)<br><sub>Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration…</sub> | TypeScript | 1,774 | 29,743 | `board` `collaboration` `doc` `docx` |
-| 7 | [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)<br><sub>A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows …</sub> | TypeScript | 350 | 10,251 | – |
-| 9 | [obra/superpowers](https://github.com/obra/superpowers)<br><sub>An agentic skills framework & software development methodology that works.</sub> | Shell | 1,917 | 319,646 | `ai` `brainstorming` `coding` `obra` |
-| 10 | [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui)<br><sub>AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.</sub> | TypeScript | 1,445 | 20,235 | `ag-ui-protocol` `agent-frontend` `agent-ui` `agentic-workflow` |
-| 11 | [backnotprop/plannotator](https://github.com/backnotprop/plannotator)<br><sub>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, re…</sub> | TypeScript | 691 | 13,234 | `agents` `claude-code` `code-review` `codex` |
-| 13 | [affaan-m/ECC](https://github.com/affaan-m/ECC)<br><sub>The agent harness performance optimization system. Skills, instincts, memory, security, an…</sub> | JavaScript | 883 | 305,958 | `ai-agents` `anthropic` `claude` `claude-code` |
-| 14 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind)<br><sub>🧠 Train a 64M-parameter LLM from scratch in just 2h!</sub> | Python | 192 | 66,372 | `artificial-intelligence` `large-language-model` |
-| 15 | [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra)<br><sub>PaperOrchestra is a multi-agent framework for automated AI research paper writing.</sub> | Python | 1,072 | 3,546 | `ai-research-assistant` `multi-agent-systems` |
+| 2 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)<br><sub>"CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/</sub> | Python | 389 | 60,148 | – |
+| 3 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)<br><sub>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and th…</sub> | Python | 1,059 | 70,432 | `ai-prompts` `ai-skill` `bluesky` `claude` |
+| 5 | [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)<br><sub>Multi-tier framework for evaluating AI agent skills and plugins with quality gates, securi…</sub> | Python | 312 | 3,974 | `agent-evaluation` `agent-plugins` `agent-security` `agent-skills` |
+| 8 | [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra)<br><sub>PaperOrchestra is a multi-agent framework for automated AI research paper writing.</sub> | Python | 1,524 | 4,726 | `ai-research-assistant` `multi-agent-systems` |
+| 9 | [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)<br><sub>A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows …</sub> | TypeScript | 365 | 10,545 | – |
+| 12 | [appwrite/appwrite](https://github.com/appwrite/appwrite)<br><sub>The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Me…</sub> | TypeScript | 232 | 58,367 | `android` `appwrite` `backend` `backend-as-a-service` |
+| 13 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)<br><sub>OpenVINO™ is an open source toolkit for optimizing and deploying AI inference</sub> | C++ | 24 | 11,433 | `ai` `computer-vision` `deep-learning` `deploy-ai` |
+| 14 | [obra/superpowers](https://github.com/obra/superpowers)<br><sub>An agentic skills framework & software development methodology that works.</sub> | Shell | 822 | 321,595 | `ai` `brainstorming` `coding` `obra` |
+| 15 | [affaan-m/ECC](https://github.com/affaan-m/ECC)<br><sub>The agent harness performance optimization system. Skills, instincts, memory, security, an…</sub> | JavaScript | 1,108 | 306,868 | `ai-agents` `anthropic` `claude` `claude-code` |
+| 17 | [n8n-io/n8n](https://github.com/n8n-io/n8n)<br><sub>Fair-code workflow automation platform with native AI capabilities. Combine visual buildin…</sub> | TypeScript | 325 | 211,330 | `ai` `apis` `automation` `cli` |
+| 19 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)<br><sub>A collection of MCP servers.</sub> | – | 53 | 98,198 | `ai` `mcp` |
 
 ### 📊 This week so far · 2026-W47
 
 #### Summary
 
-- **18** distinct AI repos trended over 3 day(s) (last week: 27)
-- AI share of all trending slots: **86%** (+17 pts vs last week)
-- Dominant language: **Python** (39% of AI repos)
-- Rising topics: `anthropic` (+1), `claude-code` (+1), `mcp-server` (+1), `sdlc` (+1), `skills` (+1)
+- **23** distinct AI repos trended over 4 day(s) (last week: 27)
+- AI share of all trending slots: **77%** (+9 pts vs last week)
+- No single dominant language: Python, TypeScript tied at 8 repo(s) each
+- Rising topics: `mcp-server` (+2), `anthropic` (+1), `claude-code` (+1), `harness` (+1), `sdlc` (+1)
 
 #### Languages
 
@@ -41,12 +40,13 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 
 | Language | Repos | Share | Last week |
 |---|--:|--:|--:|
-| Python | 7 | 39% | 6 |
-| TypeScript | 6 | 33% | 11 |
-| Go | 2 | 11% | 3 |
-| C++ | 1 | 6% | 2 |
-| Shell | 1 | 6% | 1 |
-| JavaScript | 1 | 6% | 1 |
+| TypeScript | 8 | 35% | 11 |
+| Python | 8 | 35% | 6 |
+| Go | 2 | 9% | 3 |
+| C++ | 2 | 9% | 2 |
+| Shell | 1 | 4% | 1 |
+| JavaScript | 1 | 4% | 1 |
+| Unspecified | 1 | 4% | 0 |
 
 #### Topics
 
@@ -55,36 +55,36 @@ Every morning a GitHub Actions workflow reads the GitHub trending page, looks up
 | Topic | Repos this week |
 |---|--:|
 | `claude-code` | 7 |
+| `mcp` | 6 |
 | `ai-agents` | 4 |
 | `codex` | 4 |
-| `mcp` | 4 |
 | `skills` | 3 |
 | `code-review` | 3 |
+| `mcp-server` | 3 |
 | `agent-skills` | 3 |
+| `self-hosted` | 3 |
 | `claude` | 3 |
 | `agentic-workflow` | 2 |
-| `mcp-server` | 2 |
-| `developer-tools` | 2 |
-| `cursor` | 2 |
+| `harness` | 2 |
 
 #### Most persistent AI repos
 
 | Repo | Language | Days trending | Stars gained | Total stars |
 |---|---|--:|--:|--:|
+| [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) | TypeScript | 4 | 1,491 | 10,545 |
 | [dream-num/univer](https://github.com/dream-num/univer) | TypeScript | 3 | 4,590 | 29,743 |
+| [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra) | Python | 3 | 2,909 | 4,726 |
 | [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | TypeScript | 3 | 2,591 | 20,235 |
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Go | 3 | 2,405 | 54,052 |
 | [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | TypeScript | 3 | 2,253 | 13,234 |
 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | Python | 3 | 2,197 | 10,202 |
-| [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) | TypeScript | 3 | 1,126 | 10,251 |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | TypeScript | 2 | 1,558 | 57,914 |
-| [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) | Python | 2 | 1,543 | 6,692 |
-| [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra) | Python | 2 | 1,385 | 3,546 |
-| [Tencent/LoopForge](https://github.com/Tencent/LoopForge) | Go | 2 | 1,014 | 3,676 |
+| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Python | 3 | 1,890 | 70,432 |
+| [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) | Python | 3 | 1,307 | 3,974 |
+| [obra/superpowers](https://github.com/obra/superpowers) | Shell | 2 | 2,739 | 321,595 |
 
 ➡️ Last full weekly analysis: [2026-W46](reports/weekly/2026-W46.md) · [all reports](reports/weekly)
 
-_Tracking since 2026-10-01 · 49 day(s) of data · [raw data](data/trending.csv)_
+_Tracking since 2026-10-01 · 50 day(s) of data · [raw data](data/trending.csv)_
 <!-- TRACKER_END -->
 
 ## How it works
